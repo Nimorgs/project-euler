@@ -1,4 +1,4 @@
-var max= 1000;
+var max= 600851475143;
 var biggestPrime=0;
 
 for(var i=2;i<max/2;i++){
