@@ -3,11 +3,10 @@ var biggestPrime=0;
 
 for(var i=2;i<max/2;i++){
 	if((isPrime(i))&&(isFactor(i))){
-		print(i);
-	}
-
+		biggestPrime=i;
+	}//if
 }//for
-//print(biggestPrime);
+print(biggestPrime);
 function isPrime(number){
 	var boolIsPrime=true;
 	for(var i=2;i<number;i++){
